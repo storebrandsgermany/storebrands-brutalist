@@ -253,9 +253,9 @@ const Services = () => {
                 </div>
                 <div className="relative h-48 bg-brand-dark border border-white/5 overflow-hidden flex items-center justify-center">
                   <div className="absolute w-full flex justify-around opacity-50">
-                    {[1, 1.5, 0.8, 2, 1.2].map((dur, i) => (
-                      <div key={i} className="w-px h-64 bg-brand-limestrong animate-pulse" style={{ animationDuration: \`\${dur}s\` }}></div>
-                    ))}
+                      {[1, 1.5, 0.8, 2, 1.2].map((dur, i) => (
+                        <div key={i} className="w-px h-64 bg-brand-limestrong animate-pulse" style={{ animationDuration: `${dur}s` }}></div>
+                      ))}
                   </div>
                   <div className="z-10 font-mono text-brand-limestrong text-xs glitch-hover">
                     {'>'} CONNECTING_NODES...<br/>
